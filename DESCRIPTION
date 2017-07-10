@@ -1,0 +1,13 @@
+Package: ircor
+Title: Correlation Coefficients for Information Retrieval
+Version: 0.0
+Authors@R: person("Julián", "Urbano", email = "urbano.julian@gmail.com", role = c("aut", "cre"))
+Description: Provides implementation of various correlation coefficients of common use in
+  Information Retrieval, such as Kendall and AP correlation coefficients, with and without ties.
+Depends: R (>= 3.2.0)
+License: MIT + file LICENSE
+BugReports: https://github.com/julian-urbano/ircor/issues
+URL: https://github.com/julian-urbano/ircor/
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
