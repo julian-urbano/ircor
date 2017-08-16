@@ -1,17 +1,44 @@
 #' AP Rank Correlation Coefficients
 #'
-#' @param x a numeric vector. When applicable, this is the vector of true scores.
-#' @param y a numeric vector of the same length as \code{x}. When applicable, this is the vector of
+#' \code{tauAP} is the AP rank correlation coefficient by Yilmaz et al., where neither vector can
+#' contain tied items. \code{tauAP_a} and \code{tauAP_b} are the versions developed by Urbano and
+#' Marrero to cope with ties under the scenarios of accuracy and agreement, respectively. See the
+#' references for details.
+#'
+#' Note that the sorting order is decreasing by default, as should be for instance if the scores
+#' represent the effectiveness of systems. When the sorting order is ascending, as is for instance when the vectors represent ranks, the parameter
+#' \code{decreasing} must be set to \code{FALSE}.
+#'
+#' @param x a numeric vector. In \code{tauAP_a} this is the vector of true scores.
+#' @param y a numeric vector of the same length as \code{x}. In \code{tauAP_a} this is the vector of
 #'   estimated scores.
 #' @param decreasing logical. Should the sort order be increasing or decreasing (default)?
 #'
 #' @return The correlation coefficient.
 #' @references E. Yilmaz, J.A. Aslam and S. Robertson (2008). A New Rank Correlation Coefficient for
-#'   Information Retrieval. ACM SIGIR, pp. 587–594.
+#'   Information Retrieval. ACM SIGIR.
 #'
 #'   J. Urbano and M. Marrero (2017). The Treatment of Ties in AP Correlation. ACM ICTIR.
+#' @seealso \code{\link{tau}} for Kendall correlation coefficients.
 #' @examples
-#' @seealso \code{\link{tau}} for Kendall \eqn{\tau} correlation coefficients.
+#' # No ties
+#' x <- c(0.67, 0.45, 0.29, 0.12, 0.57, 0.24, 0.94, 0.75, 0.08, 0.54)
+#' y <- c(0.48, 0.68, 0.32, 0.09, 0.06, 0.61, 0.87, 0.22, 0.44, 0.84)
+#' tauAP(x, y)
+#' tauAP_a(x,y) # same as tauAP
+#'
+#' # Ties in y
+#' y <- round(y, 1)
+#' tauAP_a(x, y)
+#'
+#' # Ties in x too
+#' x <- round(x, 1)
+#' tauAP_b(x, y)
+#'
+#' # Set decreasing to FALSE when x and y already represent ranks
+#' x <- rank(-x)
+#' y <- rank(-y)
+#' tauAP_b(x, y, FALSE) # same as above
 #' @export
 tauAP <- function(x, y, decreasing = TRUE) {
   check(x, y)
@@ -91,6 +118,7 @@ tauAP_b <- function(x, y, decreasing = TRUE) {
 }
 
 #' Asymetric tauAP_b
+#' @noRd
 tauAP_b_ties <- function(x, y) {
   n <- length(x)
   rx <- rank(x)

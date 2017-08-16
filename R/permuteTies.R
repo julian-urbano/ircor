@@ -6,7 +6,7 @@
 #' @param decreasing logical. Should the sort order be increasing or decreasing (default)?
 #'
 #' @return A list with all the permuted rankings.
-#' @export
+#' @noRd
 permuteTies <- function(x, decreasing = TRUE) {
   if(decreasing)
     x <- -x
@@ -26,6 +26,7 @@ permuteTies <- function(x, decreasing = TRUE) {
 #' @param l list to collect all permutations.
 #'
 #' @return A list with all the permuted rankings.
+#' @noRd
 doPermuteTies <- function(ranks, groups,  prev = numeric(0), l = list()){
   if(length(ranks) == 1) {
     # only one item remaining. Concatenate and add

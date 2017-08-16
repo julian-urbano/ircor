@@ -14,6 +14,7 @@
 #' @param y the second argument.
 #'
 #' @return Nothing, called for its side effect.
+#' @noRd
 check_types <- function(x, y) {
   if(!is.numeric(x) || !is.atomic(x) || !is.vector(x))
     stop("'x' must be a numeric vector", call. = FALSE)
