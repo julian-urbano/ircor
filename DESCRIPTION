@@ -2,7 +2,7 @@ Package: ircor
 Title: Correlation Coefficients for Information Retrieval
 Version: 0.0
 Authors@R: c(person("Julián", "Urbano", email = "urbano.julian@gmail.com", role = c("aut", "cre")),
-             person("Mónica", "Marrero", email = "marrero.llinares@gmail.com", role = c("aut")))
+             person("Mónica", "Marrero", email = "marrero.monica@gmail.com", role = c("aut")))
 Description: Provides implementation of various correlation coefficients of common use in
   Information Retrieval, such as Kendall and AP correlation coefficients, with and without ties.
 Depends: R (>= 3.2.0)
