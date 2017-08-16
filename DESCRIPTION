@@ -1,6 +1,6 @@
 Package: ircor
 Title: Correlation Coefficients for Information Retrieval
-Version: 0.0
+Version: 1.0
 Authors@R: c(person("Julián", "Urbano", email = "urbano.julian@gmail.com", role = c("aut", "cre")),
              person("Mónica", "Marrero", email = "marrero.monica@gmail.com", role = c("aut")))
 Description: Provides implementation of various correlation coefficients of common use in
