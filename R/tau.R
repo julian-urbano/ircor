@@ -23,7 +23,7 @@
 #' # Ties in y
 #' y <- round(y, 1)
 #' tau_a(x, y)
-#' tau_b(x, y) # same as tau_a
+#' tau_b(x, y)
 #'
 #' # Ties in x too
 #' x <- round(x, 1)

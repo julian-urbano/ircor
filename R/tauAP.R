@@ -30,6 +30,7 @@
 #' # Ties in y
 #' y <- round(y, 1)
 #' tauAP_a(x, y)
+#' tauAP_b(x, y)
 #'
 #' # Ties in x too
 #' x <- round(x, 1)
