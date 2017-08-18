@@ -4,7 +4,9 @@ Version: 0.0
 Authors@R: c(person("Julián", "Urbano", email = "urbano.julian@gmail.com", role = c("aut", "cre")),
              person("Mónica", "Marrero", email = "marrero.monica@gmail.com", role = c("aut")))
 Description: Provides implementation of various correlation coefficients of common use in
-  Information Retrieval, such as Kendall and AP correlation coefficients, with and without ties.
+  Information Retrieval. In particular, it includes Kendall tau coefficient as well as tau_a and
+  tau_b for the treatment of ties. It also includes Yilmaz tauAP correlation coefficient, and
+  versions tauAP_a and tauAP_b developed by Urbano and Marrero to cope with ties.
 Depends: R (>= 3.2.0)
 License: MIT + file LICENSE
 BugReports: https://github.com/julian-urbano/ircor/issues
