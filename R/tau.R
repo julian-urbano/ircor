@@ -9,7 +9,7 @@
 #'   estimated scores.
 #'
 #' @return The correlation coefficient.
-#' @references M.G. Kendall (1948). Rank Correlation Methods. Charles Griffin & Company
+#' @references M.G. Kendall (1970). Rank Correlation Methods. Charles Griffin & Company
 #'   Limited.
 #' @seealso \code{\link{tauAP}} for AP correlation coefficients.
 #' @examples
