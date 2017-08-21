@@ -19,7 +19,7 @@ install.packages("ircor")
 or the latest development version from GitHub
 
 ``` r
-devtools::install_github("julian-urbano/ircor")
+devtools::install_github("julian-urbano/ircor", ref = "develop")
 ```
 
 ## Usage
