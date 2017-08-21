@@ -44,7 +44,7 @@ x <- round(x, 1)
 tau_b(x, y)
 }
 \references{
-M.G. Kendall (1948). Rank Correlation Methods (4th ed.). Charles Griffin & Company
+M.G. Kendall (1970). Rank Correlation Methods. Charles Griffin & Company
   Limited.
 }
 \seealso{
