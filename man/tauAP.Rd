@@ -13,10 +13,9 @@ tauAP_a(x, y, decreasing = TRUE)
 tauAP_b(x, y, decreasing = TRUE)
 }
 \arguments{
-\item{x}{a numeric vector. In \code{tauAP_a} this is the vector of true scores.}
+\item{x}{a numeric vector. This is the vector of true scores.}
 
-\item{y}{a numeric vector of the same length as \code{x}. In \code{tauAP_a} this is the vector of
-estimated scores.}
+\item{y}{a numeric vector of the same length as \code{x}. This is the vector of estimated scores.}
 
 \item{decreasing}{logical. Should the sort order be increasing or decreasing (default)?}
 }

@@ -9,9 +9,8 @@
 #' represent the effectiveness of systems. When the sorting order is ascending, as is for instance when the vectors represent ranks, the parameter
 #' \code{decreasing} must be set to \code{FALSE}.
 #'
-#' @param x a numeric vector. In \code{tauAP_a} this is the vector of true scores.
-#' @param y a numeric vector of the same length as \code{x}. In \code{tauAP_a} this is the vector of
-#'   estimated scores.
+#' @param x a numeric vector. This is the vector of true scores.
+#' @param y a numeric vector of the same length as \code{x}. This is the vector of estimated scores.
 #' @param decreasing logical. Should the sort order be increasing or decreasing (default)?
 #'
 #' @return The correlation coefficient.
