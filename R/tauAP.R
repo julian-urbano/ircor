@@ -6,8 +6,8 @@
 #' references for details.
 #'
 #' Note that the sorting order is decreasing by default, as should be for instance if the scores
-#' represent the effectiveness of systems. When the sorting order is ascending, as is for instance when the vectors represent ranks, the parameter
-#' \code{decreasing} must be set to \code{FALSE}.
+#' represent the effectiveness of systems. When the sorting order is ascending, as is for instance
+#' when the vectors represent ranks, the parameter \code{decreasing} must be set to \code{FALSE}.
 #'
 #' @param x a numeric vector. This is the vector of true scores.
 #' @param y a numeric vector of the same length as \code{x}. This is the vector of estimated scores.
