@@ -3,7 +3,7 @@
 [![CRAN version](http://www.r-pkg.org/badges/version/ircor?color=blue)](https://cran.r-project.org/package=ircor) 
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/ircor?color=blue)](https://cran.r-project.org/package=ircor) 
 
-# ircor
+# ircor <img src="logo/logo-140x122.png" align="right" />
 
 Provides implementation of various correlation coefficients of common use in Information Retrieval, such as Kendall and AP correlation coefficients, with and without ties.
 
