@@ -3,7 +3,7 @@
 [![CRAN version](http://www.r-pkg.org/badges/version/ircor?color=blue)](https://cran.r-project.org/package=ircor) 
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/ircor?color=blue)](https://cran.r-project.org/package=ircor) 
 
-# ircor
+# ircor <img src="logo/logo-140x122.png" align="right" />
 
 Provides implementation of various correlation coefficients of common use in Information Retrieval, such as Kendall and AP correlation coefficients, with and without ties.
 
@@ -67,3 +67,16 @@ tauAP_b(x,y)
 ## License
 
 `ircor` is released under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+If you use this code in your work, please cite the following paper:
+
+```latex
+@inproceedings{urbano2017ties,
+  author = {Urbano, Juli{\'{a}}n and Marrero, M{\'{o}}nica},
+  booktitle = {ACM SIGIR International Conference on the Theory of Information Retrieval},
+  pages = {321--324},
+  title = {{The Treatment of Ties in AP Correlation}},
+  year = {2017}
+}
+
+```
