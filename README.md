@@ -64,6 +64,10 @@ tauAP_b(x,y)
 # 0.6269841
 ```
 
+## ircor in Python
+
+A Python implementation by Jaehun Kim is available [here]https://github.com/eldrin/pyircor).
+
 ## License
 
 `ircor` is released under the terms of the [MIT License](https://opensource.org/licenses/MIT).
