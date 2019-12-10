@@ -67,3 +67,16 @@ tauAP_b(x,y)
 ## License
 
 `ircor` is released under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+If you use this code in your work, please cite the following paper:
+
+```latex
+@inproceedings{urbano2017ties,
+  author = {Urbano, Juli{\'{a}}n and Marrero, M{\'{o}}nica},
+  booktitle = {ACM SIGIR International Conference on the Theory of Information Retrieval},
+  pages = {321--324},
+  title = {{The Treatment of Ties in AP Correlation}},
+  year = {2017}
+}
+
+```
