@@ -66,7 +66,7 @@ tauAP_b(x,y)
 
 ## ircor in Python
 
-A Python implementation by Jaehun Kim is available [here]https://github.com/eldrin/pyircor).
+A Python implementation by Jaehun Kim is available [here](https://github.com/eldrin/pyircor).
 
 ## License
 
